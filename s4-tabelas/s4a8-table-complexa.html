@@ -1,0 +1,56 @@
+<!--
+   Melhorando a acessibilidade 
+   attributo scope
+
+-->
+<table>
+
+    <caption>Produtos Produzidos x Vendidos por Loja</caption>
+
+
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: greenyellow;">
+        <col span="2" style="background-color: blueviolet;">
+
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Pinho Vinho</th>
+            <th colspan="2" scope="colgroup">Zuki Suco</th>
+        </tr>
+
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">
+                Suco de Uva
+            </th>
+            <td>20</td>
+            <td>15</td>
+            <td>40</td>
+            <td>37</td>
+
+        </tr>
+        <tr>
+            <th scope="row">
+                Vinho
+            </th>
+            <td>30</td>
+            <td>25</td>
+            <td>10</td>
+            <td>8</td>
+        </tr>
+    </tbody>
+
+</table>
